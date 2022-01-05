@@ -14,6 +14,21 @@ println("s2 = $(s2)")
 s3 = "Computer " * "Science"
 println("s3 = $(s3)")
 
+# Perform addition in string
 i3 = 2
 i4 = 3
 println("$i3 + $i4 = $(i3 + i4)")
+
+# Other string functions
+s4 = """
+very
+long
+string
+"""
+println("s4 = $s4")
+
+println("Tyler > Lum = $("Tyler" > "Lum")")
+println("findfirst(isequal('y'), \"Tyler\") = $(findfirst(isequal('y'), "Tyler"))")
+println("findfirst(isequal('i'), \"Tyler\") = $(findfirst(isequal('i'), "Tyler"))")
+println("occursin(\"key\", \"monkey\") = $(occursin("key", "monkey"))")
+println("occursin(\"kiys\", \"monkey\") = $(occursin("kiys", "monkey"))")
